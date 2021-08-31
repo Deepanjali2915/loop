@@ -1,0 +1,10 @@
+a="int(ab)"
+b="8"
+c=int(b)
+d="saloni"
+e="int(saloni)"
+print(a)
+print(b)
+print(c)
+print(d)
+print(e)

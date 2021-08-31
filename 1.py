@@ -1,29 +1,36 @@
-# i=0
-# while i<=20:
-#   if i%2==0:
-#       print(i)
-#       i=i+2
-    
-# i=1
-# while i<=20:
-#     if i%2!=0:
-#         print(i)   
-#     i+=1
+# row=int(input("Enter the the rows:"))
+# for i in range(0,row+1):
+#  for j in range(i):
+#      print("*",end='')
+#  print()   
 
-# i=1
-# while i<=10:
-#     print(i)
+
+# Extra Question for mentor
+
+# i=7
+# row=int(input("Enter the number:"))
+# while i<=row:
+#     j=1
+#     while j<=i:
+#         print(j,end='')
+#         j=j+1
 #     i=i+1
+#     print()
+     
 
-# i=0
-# while i<=10:
-#     print(i)
-#     i=i+1
 
-i=0
-while i<=100:
-  if i**2==0:
-     print(i)
-  i=i+2   
+num=int(input("enter the number"))
+row=0
+while row<num:
+    star=row+1
+    while star>0:
+        print("*",end="")
+        star=star-1
+    row=row+1
+    print()
+
+
+
+
 
 
